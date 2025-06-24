@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    height: 100vh;  // vh---viewport height
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #00ffcc;
+    font-family: 'Courier New', momospace;
+
+}
+#t{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.clock-container{
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    width: 500px;
+    border-radius: 8px;
+    display:grid;
+
+}
+
+#clock{
+    font-size:4rem;
+    letter-spacing: 2px;
+}
